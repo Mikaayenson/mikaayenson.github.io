@@ -385,6 +385,7 @@
 var tables, i;
 tables = document.getElementsByTagName('table');
 for (i=0;i&lt;tables.length;i++) {
-  tables[i].className = 'table table-striped';
+  tables[i].className = 'table table-bordered table-hover';
+  tables[i].border = 1;
 }
 &lt;/script&gt;</content><category term="email"></category><category term="cyber"></category><category term="cybercrime"></category><category term="computer crime"></category></entry></feed>
