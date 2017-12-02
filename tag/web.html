@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Learning Cyber Security - web</title>
+        <link rel="stylesheet" href="https://mikaayenson.github.io/theme/css/main.css" />
+        <link href="https://mikaayenson.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Learning Cyber Security Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://mikaayenson.github.io/">Learning Cyber Security </a></h1>
+                <nav><ul>
+                    <li><a href="https://mikaayenson.github.io/pages/raf_references.html">References</a></li>
+                    <li><a href="https://mikaayenson.github.io/category/email.html">Email</a></li>
+                    <li><a href="https://mikaayenson.github.io/category/risk-analysis-framework.html">Risk Analysis Framework</a></li>
+                    <li><a href="https://mikaayenson.github.io/category/webserver.html">Webserver</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://mikaayenson.github.io/web_attacks.html">Web Server Attacks</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2017-12-02T00:00:00-05:00">
+                Published: Sat 02 December 2017
+        </abbr>
+		<br />
+        <abbr class="modified" title="2017-12-02T14:54:00-05:00">
+                Updated: Sat 02 December 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://mikaayenson.github.io/author/mika-ayenson.html">Mika Ayenson</a>
+        </address>
+<p>In <a href="https://mikaayenson.github.io/category/webserver.html">Webserver</a>.</p>
+<p>tags: <a href="https://mikaayenson.github.io/tag/web.html">web</a> <a href="https://mikaayenson.github.io/tag/webserver.html">webserver</a> <a href="https://mikaayenson.github.io/tag/cyber.html">cyber</a> </p>
+</footer><!-- /.post-info --><h3>Cyber-Attacks on Web Servers</h3>
+<p>Due to the design of web servers and implementation of the TCP/IP protocol, webservers have vulnerabilities like issues in verification of input data, URL parameter modifications, and session identifier authentication. These types of vulnerabilities lead to numerous attack vectors that traditional network security has a difficult time preventing. For example, there are URL interpretation attacks, SQL Injection attacks, input validation attacks, buffer overflow attacks, impersonation attacks, password-based attacks, denial-of-service attacks, brute force attacks, source code disclosure attacks, cross site scripting attacks, and session hijacking attacks (Mohammad, 2016). Here are five common attacks explained.</p>
+<h3>SQL Injection</h3>
+<p>This is a well-known attack that attempts to modify parameters in the URL to directly interact with the backend database. Unauthorized users can input query-like data into the URL that is later interpreted by the database and used to bypass typical security. </p>
+<h3>Input Validation</h3>
+<p>Adversaries use this type of attack to execute code injected on the webserver. If there is no input validation, users can upload code to the server and then used to retrieve unauthorized information or cause damage to the server. </p>
+<h3>Source Code Disclosure</h3>
+<p>Adversaries at times want to obtain source code of another organization. Once the source code is obtained, it is then reverse engineered to find other vulnerabilities in the website. </p>
+<h3>URL Interpretation</h3>
+<p>This attack is typically called URL poisoning that affects CGI-based websites. Attackers change the semantics of the URL but keep the syntax to that the request is well-formed legitimate URL. This type of attack allows adversaries to gain information that they typically would not have access to. An example of this would be if an adversary changed the URL that contains account information to another users account ID to load their information using their own approved session token.</p>
+<h3>Denial of Service</h3>
+<p>A denial of service (DoS) attack is an attack that prevents legitimate users from interacting with the website by flooding the server with too much data to process in a timely manner. At times DoS attacks can crash the server and cause serious damage to the applications running on the webserver. This type of attack is intentionally used to disrupt and damage services of an organization.</p>
+<p>See: <a href="../pages/raf_references.html">References</a></p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://mikaayenson.github.io/web_functions.html" rel="bookmark"
+                           title="Permalink to Web Server Functionality">Web Server Functionality</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-12-02T00:00:00-05:00">
+                Published: Sat 02 December 2017
+        </abbr>
+		<br />
+        <abbr class="modified" title="2017-12-02T14:54:00-05:00">
+                Updated: Sat 02 December 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://mikaayenson.github.io/author/mika-ayenson.html">Mika Ayenson</a>
+        </address>
+<p>In <a href="https://mikaayenson.github.io/category/webserver.html">Webserver</a>.</p>
+<p>tags: <a href="https://mikaayenson.github.io/tag/web.html">web</a> <a href="https://mikaayenson.github.io/tag/webserver.html">webserver</a> <a href="https://mikaayenson.github.io/tag/cyber.html">cyber</a> </p>
+</footer><!-- /.post-info -->                <p>Understanding what what servers are used for and their core functions.</p>
+                <a class="readmore" href="https://mikaayenson.github.io/web_functions.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://mikaayenson.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
